@@ -19,7 +19,7 @@
 
 ## Version control
 
-This folder is a git repository. Commit the current state **before any big change**, and commit again whenever something starts working. Use short, clear commit messages. Never commit `.env`, `.venv/`, `__pycache__/`, or `*.pyc`.
+This folder is a git repository. Before any big change—installing packages, rewriting a working file, or making a large refactor—commit the current state first. Commit again whenever something starts working, with short, clear messages, so there is always history to roll back to. Never commit `.env`, `.venv/`, `__pycache__/`, or `*.pyc`.
 
 ## Evidence rule
 
