@@ -5,6 +5,7 @@
 - Use `uv` for the Python environment: create it with `uv venv`.
 - Run all Python with `uv run`; this is intended to work the same way on every OS.
 - Do not put secrets in version control. In particular, `.env` is ignored.
+- To fold a protein sequence that is not in the AlphaFold Database, read and follow the course fold-service instructions at https://ddls-structure-api-8a7d6803.svc.hypha.aicell.io/skill.md. Take the fold key from the `DDLS_FOLD_KEY` variable in `.env`; load it with `set -a; source .env; set +a`, then send it as the Bearer token. Never write the key itself into `AGENTS.md` or any other committed file.
 
 ## Data and files
 
